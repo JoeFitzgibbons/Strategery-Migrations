@@ -34,11 +34,11 @@ IE and Safari generate a file that you must open to view the migration report. T
 
 To use this plugin you must have it setup with a multisite network using sub-directories. Not sub-domains.
 
-### I made a new migration file using the Add New form. Where is that file located? =
+### I made a new migration file using the Add New form. Where is that file located?
 
 Migration files are located in ‘/wp-content/plugins/strategery-migrations/migrations/’.
 
-### I created a new migration file... Now what? =
+### I created a new migration file... Now what?
 
 Open that file you created and put any code you need in the up method. Put any code you need to undo whatever the up method does in the down method. (The down method is optional)
 
@@ -49,10 +49,10 @@ The plugin will only run migration scrips with a timestamp later than the curren
 Screenshots
 -----------
 
-1. ![screenshot-1.png](./screenshot-1.png "Migrations List")
-This image shows an example migrations list for a certain blog. The schedule_page.php is black because it is newer than the current blog’s state indicating that it hasn’t been run. All files with an older timestamp are grey to show that they are migrations from an earlier state. Also note the buttons at the top and for each file which will run a certain action.
-2. ![screenshot-2.png](./screenshot-2.png "Migrations Report")
-his image shows the report that appears after running a migration script. Notice the reload button that appears right above it. To see the updated migrations list you must reload the page after running a migration script. If you are using  IE or Safari this report will be empty and a file will be generated with the migration report. View this file to view the report.
+Found in the root folder
+
+1. screenshot-1.png shows an example migrations list for a certain blog. The schedule_page.php is black because it is newer than the current blog’s state indicating that it hasn’t been run. All files with an older timestamp are grey to show that they are migrations from an earlier state. Also note the buttons at the top and for each file which will run a certain action.
+2. screenshot-2.png shows the report that appears after running a migration script. Notice the reload button that appears right above it. To see the updated migrations list you must reload the page after running a migration script. If you are using  IE or Safari this report will be empty and a file will be generated with the migration report. View this file to view the report.
 
 Usage Instructions
 ------------------
