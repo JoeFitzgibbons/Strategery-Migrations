@@ -134,7 +134,7 @@ Below is an example of how to call the exclude from navigation helper class.
 
 __Example__
 
-	$this->helper('plugins/exclude_from_nav')->exclude($post->ID);
+	$this->getHelper('plugins/exclude_from_nav')->exclude($post->ID);
 
 exclude() takes the id of the page being excluded as an argument.
 
