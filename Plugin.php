@@ -5,7 +5,7 @@
  * Plugin URI: http://usestrategery.com
  * Description: Allows for easier migrations to the database.
  * Author: Gabriel Somoza (me@gabrielsomoza.com) , Joseph Fitzgibbons (jfitzy87@gmail.com)
- * Version: 0.1
+ * Version: 1.0
  * Author URI: http://gabrielsomoza.com
  * Compatibility: Wordpress 3.0+
  */
